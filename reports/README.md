@@ -36,10 +36,10 @@ class Name:
         self.hobby = hobby
 ```
 
-![Помилка ValueError](images/nametest1(ValueError).png)
+![Помилка ValueError](https://github.com/vzelinka/testing_vika/blob/main/image/nametest1(ValueError).png?raw=true)
 
 
-![Коректне виконання](images/nametest1(правильний).png)
+![Коректне виконання](https://github.com/vzelinka/testing_vika/blob/main/image/nametest1(%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9).png?raw=true)
 
 
 ---
@@ -55,7 +55,7 @@ def test_get_angles():
     assert triangle.get_angles() == 3, f"У {fig} має бути 3 кути!"
 ```
 
-![pytest passed](images/testapp(passed).png)
+![pytest passed](https://github.com/vzelinka/testing_vika/blob/main/image/testapp(passed).png?raw=true)
 
 
 ---
@@ -68,7 +68,7 @@ def test_get_angles():
 - вірність довжини;
 - некоректні дані (викликають `AssertionError`).
 
-![unittest успішно](images/testfigure.png)
+![unittest успішно](https://github.com/vzelinka/testing_vika/blob/main/image/testfigure.png?raw=true)
 
 
 ---
